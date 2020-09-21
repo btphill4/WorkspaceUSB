@@ -1,0 +1,108 @@
+package ch4;
+
+/***************************************************************
+  Program Name :  Salary.java  
+  Author : 
+  Date :
+  Description:
+   Demonstrates :Using if..else. 
+	Demonstrates :switch statement
+	Demonstrates :boolean variable
+	
+   Computes the raise and new salary for an employee
+
+     The input to the program includes the current annual salary
+     for the employee and a number indicating the performance
+     rating (1=excellent, 2=good, 3=poor).    An employee with a
+	  rating of 1  will receive a 6% raise, an employee with a
+	  rating of 2  will receive a 4% raise, and one with a rating of 1  
+	  will receive a 1.5% raise.  All other ratings are invalid 
+	  and the raise will be set to 0 and a message displayed.
+		 
+	 ***************************************************************/
+
+import java.util.Scanner;
+import java.util.Random;
+
+public class Salary
+{
+   public static void main (String[] args)
+   {
+      double currentSalary = 0.0;  // current annual salary
+      int    rating = 0;           // performance rating
+      double raise = 0.0;          // dollar amount of the raise
+		String message;
+		boolean isPromotable = false;
+	
+		
+		
+	   Scanner scan = new Scanner(System.in);
+		Random generator = new Random();
+
+      // Get the current salary and performance rating
+      System.out.print ("Enter the current salary: ");
+      currentSalary = scan.nextDouble();
+      System.out.println ("Enter the performance rating: ");
+		System.out.print("1=excellent, 2=good, 3=poor. Rating is : ");  
+      rating = scan.nextInt();
+		
+		
+      // Compute the raise -- Use if ... else ...
+
+      /* if (rating == 1)
+	  {
+	  		raise = currentSalary * 0.06;
+	  }
+	  else if (rating == 2)
+	  {
+	  		raise = currentSalary * 0.04;
+	  }
+	  else if (rating == 3)
+	  {
+	  		raise = currentSalary * 0.015;
+		}
+		else
+		{
+			raise = 0.0;
+			System.out.println("Invalid rating.  No raise calculated.");
+		}
+	*/
+
+      //Generate a rating from 0 to 3
+      rating = generator.nextInt(4);
+      System.out.println("Your rating is: " + rating);
+		//Use a switch statement 
+   /*   {  switch(rating)
+	  {
+	  case 1: raise = currentSalary * 0.06;
+	  isPromotable = true;
+	  	break;
+	  case 2: raise = currentSalary * 0.04;
+	  isPromotable = true;
+	  	break;
+	  case 3: raise = currentSalary * 0.015;
+	  	break;
+	  default: raise = 0.0;
+	  	System.out.println("Invalid rating.  No raise calculated.");
+	  		break;
+	  }
+	  if(isPromotable)
+	  {
+		  message = "You are terrific and will be promoted";
+	  }
+	  else
+	  {
+		  message = "So sorry you will not be promoted";
+	  }
+	  
+      // Print the results
+      
+   	  System.out.println ("Amount of your raise: $" + raise);
+      System.out.println ("Your new salary: $" + (currentSalary + raise));
+      System.out.println(message);
+	*/
+
+   }
+      
+}
+

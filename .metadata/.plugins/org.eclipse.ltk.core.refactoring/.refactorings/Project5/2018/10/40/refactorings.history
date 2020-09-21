@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;cards&apos; to &apos;Activity5/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;Project5&apos;&#x0D;&#x0A;- Destination element: &apos;Activity5/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;Project5/src/cards&apos;" description="Copy package" destination="=Activity5/src&lt;" element1="/src&lt;cards" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1538620096861" version="1.0"/>
+</session>

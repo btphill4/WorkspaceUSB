@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="ch6.BankPanel"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
+<fullyQualifiedTypeName name="classexamples.week06.list.LinkedList"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="cards.PlayingCard"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="hands.LinkedListHand"/>
+<fullyQualifiedTypeName name="projects.project6.jsjf.StackADT"/>
+<fullyQualifiedTypeName name="hands.HandOfCards"/>
+<fullyQualifiedTypeName name="java.util.Queue"/>
+<fullyQualifiedTypeName name="javax.smartcardio.Card"/>
+<fullyQualifiedTypeName name="cards.Deck"/>
+<fullyQualifiedTypeName name="projects.project6.jsjf.LinkedQueue"/>
+<fullyQualifiedTypeName name="projects.project6.jsjf.LinkedStack"/>
+<fullyQualifiedTypeName name="projects.project8.jsjf.LinkedBSTOrderedSet"/>
+<fullyQualifiedTypeName name="projects.project8.jsjf.LinkedBinarySearchTree"/>
+<fullyQualifiedTypeName name="projects.project8.jsjf.OrderedSet"/>
+<fullyQualifiedTypeName name="jsjf.exceptions.NonComparableElementException"/>
+<fullyQualifiedTypeName name="jsjf.exceptions.EmptyCollectionException"/>
+<fullyQualifiedTypeName name="jsjf.exceptions.ElementNotFoundException"/>
+<fullyQualifiedTypeName name="cards.HandOfCards"/>
+</qualifiedTypeNameHistroy>

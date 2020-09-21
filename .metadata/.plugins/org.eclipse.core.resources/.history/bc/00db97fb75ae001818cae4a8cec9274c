@@ -1,0 +1,91 @@
+package project1;
+
+import java.math.*;
+
+public class Point {
+	
+		//initialize variables
+		public double x;
+		public double y;
+		
+		//Constructors
+		Point()
+		{
+			x = 0.0;
+			y = 0.0;
+		}
+		
+		Point( double coordX, double coordY)
+		{
+			x = coordX;
+			y = coordY;
+		}
+		
+		//setters
+		public void setX(double x)
+		{
+			this.x = x;
+		}
+		public void setY(double y)
+		{
+			this.y = y;
+		}
+		public void setPoint(double x, double y)
+		{
+			this.x = x;
+			this.y = y;
+		}
+		//getters
+		public double getX()
+		{
+			Double.toString(x);
+			return x;
+		}
+		public double getY()
+		{
+			Double.toString(y);
+			return y;
+		}
+		
+		//shift numbers
+		public void shiftX(double n)
+		{
+		x += n;	 
+		}
+		public void shiftY(double n)
+		{
+		y += n; 
+		}
+		
+		//distance from points
+		/*public double distance(Point b)
+		{
+			double distanceX = 1;
+			
+			return distanceX;
+		}
+
+		public double distance(Point b) 
+		{
+			double distance = Math.sqrt((Point.getX()-x2)*(x1-x2) + (y1-y2)*(y1-y2));
+			return distance;
+		}
+*/
+		public void rotate(double rotation) 
+		{
+		double newX = x*Math.cos(rotation) - y*Math.sin(rotation);
+		double newY = x*Math.sin(rotation) + y*Math.cos(rotation);
+		x = newX;
+		y = newY;
+		}
+		
+		
+		//toString as ordered pairs
+		public String toString()
+		{
+		 return "X coordinate: " + x + " Y coordinate: " + y;
+			
+			
+		}
+		
+}

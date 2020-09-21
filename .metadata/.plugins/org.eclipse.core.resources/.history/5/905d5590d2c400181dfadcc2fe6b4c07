@@ -1,0 +1,76 @@
+package cards;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import cards.PlayingCard;
+
+
+public class BagHand implements HandOfCards, Iterable<PlayingCard>
+{
+	private ArrayList<PlayingCard> thing;
+	
+	//Constructors
+	public BagHand()
+	{
+		super();
+		this.thing = new ArrayList<PlayingCard>();
+	}
+
+	//methods
+	@Override
+	public void add(PlayingCard c) 
+	{
+		thing.add(c);
+	}
+	@Override
+	public void print() 
+	{
+	System.out.print("BagHand: ");
+	int count = 1;
+	for(PlayingCard c : thing)
+		{
+			System.out.println("Card" + count + ": " + c + " ");
+			count++;
+		}
+	}
+
+	public Iterator<PlayingCard> iterator() {
+		return thing.iterator();
+	}
+
+/*
+	public String getValue() {
+		String ret = null;
+		int value1 = thing.getRank();
+		int value2 = card2.getRank();
+		if (value1 + value2 == 21)
+		{
+			ret = "BlackJack!!!";
+		}
+		else
+		{
+			ret = "Try Again";
+		}
+		return ret;
+		
+	}
+*/
+
+	
+
+
+
+	
+
+
+
+
+
+}
+	
+	
+	
+	
+	
+	
+

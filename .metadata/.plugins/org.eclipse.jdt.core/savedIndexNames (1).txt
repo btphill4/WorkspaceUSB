@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+F:\WorkspaceUSB\.metadata\.plugins\org.eclipse.jdt.core
+3286949390.index
+3295996359.index
+756501746.index
+737771504.index
