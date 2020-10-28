@@ -1,4 +1,3 @@
-package assignment3;
 
 
 public class Exercise {
@@ -50,3 +49,4 @@ class Class3 {
              return val + "";
     }
 }
+
