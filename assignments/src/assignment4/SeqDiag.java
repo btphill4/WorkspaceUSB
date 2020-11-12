@@ -12,7 +12,7 @@ public class SeqDiag {
           int val =  objA.get();
           int val1 = objB.get();
           objA.put(val + 1);
-          objB.put(val1 ï¿½ 1);
+          objB.put(val1 – 1);
    }
 }
 
